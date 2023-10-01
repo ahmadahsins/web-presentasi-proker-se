@@ -15,6 +15,7 @@ body {
   background-image: url("./assets/Salinan\ dari\ Saba\ ExploIT.png");
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -177,6 +178,10 @@ h6 {
 
   h1 {
     font-size: 20px;
+  }
+
+  h5 {
+    font-size: 25px;
   }
 
   .closing h6 {
