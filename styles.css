@@ -1,0 +1,187 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("./assets/Salinan\ dari\ Saba\ ExploIT.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  opacity: 0.65;
+}
+
+h2 {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+#slide1 {
+  justify-content: center;
+  gap: 10px;
+}
+
+.container-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.item-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+}
+
+.container-card {
+  display: flex;
+  gap: 50px;
+  width: 60%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border: solid 1px white;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 20px;
+  text-align: center;
+  width: 600px;
+}
+
+img {
+  width: 250px;
+}
+
+.button {
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: red;
+  font-weight: bold;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h6 {
+  font-size: 20px;
+  opacity: 0.65;
+}
+
+.proker-for-mobile {
+  display: none;
+}
+
+.closing {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  #slide2 {
+    display: none;
+  }
+
+  .proker {
+    display: none;
+  }
+
+  .proker-for-mobile {
+    display: block;
+  }
+
+  .container-proker-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+
+  .card {
+    max-width: 300px;
+  }
+
+  .button {
+    display: none;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .closing h6 {
+    font-size: 12px;
+  }
+}
