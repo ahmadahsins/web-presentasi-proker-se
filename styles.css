@@ -130,6 +130,10 @@ a {
   color: white;
 }
 
+h5 {
+  font-size: 20px;
+}
+
 h6 {
   font-size: 20px;
   opacity: 0.65;
